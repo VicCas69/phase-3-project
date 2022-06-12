@@ -5,6 +5,7 @@ import GiftList from './GiftList';
 import RelativeList from './RelativeList';
 import GiftForm from './GiftForm';
 import RelativeForm from './RelativeForm';
+//import UpdateGift from './UpdateGift';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
 
     fetch("http://localhost:9292/relatives")
     .then((r) => r.json())
-    .then((data) => setRelatives(data))}, [gifts, relatives]);
+    .then((data) => setRelatives(data))}, []);
 
     function handleAddNewGift(newGift){
       const body = JSON.stringify(newGift)

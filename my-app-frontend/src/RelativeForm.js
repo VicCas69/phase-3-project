@@ -20,7 +20,8 @@ function RelativeForm({ handleAddNewRelative}) {
       name: relativeData.name,
       relationship: relativeData.relationship
     })
-    setRelativeData("")    
+    relativeData.name = ""    
+    relativeData.relationship = ""    
   }
 
   return (

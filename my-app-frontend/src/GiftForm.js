@@ -24,7 +24,10 @@ function GiftForm({ handleAddNewGift, relatives }) {
       color: formData.color,
       recipient: formData.recipient
     })
-    setFormData("")
+    formData.description = ""
+    formData.price = ""
+    formData.color = ""
+    formData.recipient = ""
     
   }
 
