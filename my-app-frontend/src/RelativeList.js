@@ -5,7 +5,7 @@ function RelativeList( {relatives, handleRelativeDelete} ) {
     return (
         <div>
         <ul>
-            <h1>🎁Relatives List🎁</h1>
+            <h1>🎁Relatives/Recipient List🎁</h1>
         {relatives.map((relative) => (
           <li key={relative.id}>
             <table width="400px">

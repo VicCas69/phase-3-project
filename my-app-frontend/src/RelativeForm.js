@@ -24,7 +24,7 @@ function RelativeForm({ handleAddNewRelative}) {
   }
 
   return (
-    <p align="center"> <h1 className="green">Add a new relative</h1>
+    <p align="center"> <h1 className="green">Add a new relative/recipient</h1>
     <form onSubmit={handleSubmit}>
       <label>Name</label>
       <input      
